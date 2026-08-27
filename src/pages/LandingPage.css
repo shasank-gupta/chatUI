@@ -1,0 +1,93 @@
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: radial-gradient(circle at top, #1f2937 0%, #0f172a 55%, #020617 100%);
+}
+
+.landing-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 24px 60px rgba(2, 6, 23, 0.45);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #38bdf8;
+}
+
+.landing-card h1,
+.groups-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+.subtitle {
+  margin: 0.75rem 0 0;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+.landing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.landing-form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.landing-form input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: #0f172a;
+  color: #f8fafc;
+  font-size: 1rem;
+}
+
+.landing-form input:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 1px;
+}
+
+.landing-form button,
+.create-group-form button {
+  margin-top: 0.5rem;
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.landing-form button:disabled,
+.create-group-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error {
+  margin: 0;
+  color: #fca5a5;
+  font-size: 0.95rem;
+}
